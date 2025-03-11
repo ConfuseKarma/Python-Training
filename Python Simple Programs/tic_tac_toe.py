@@ -1,3 +1,6 @@
+# This code creates a simple Tic-Tac-Toe game ("Jogo da velha" in portuguese) using python.
+# Using the terminal to set up the board and setting who'll be "X" and "O", through columns and lines.
+
 def print_board(board):
     for row in board:
         print(" | ".join(row))
